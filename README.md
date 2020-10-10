@@ -1,4 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 Basic Boiler Plate for React app including basic setup of Redux & material UI
 
 ## Available Scripts
