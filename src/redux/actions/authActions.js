@@ -1,8 +1,8 @@
 import { SET_CURRENT_USER } from "../types";
-import axios from "axios";
-import setAuthToken from "../../utils/setAuthToken";
-import jwtDecode from "jwt-decode";
-import sweetAlert from "sweetalert";
+// import axios from "axios";
+// import setAuthToken from "../../utils/setAuthToken";
+// import jwtDecode from "jwt-decode";
+// import sweetAlert from "sweetalert";
 
 //Register User
 export const registerUser = (userData, history) => (dispatch) => {};
