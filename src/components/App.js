@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { connect } from "react-redux";
 import { FullpageLoader } from "./CommonComponents";
 
-// const Home = lazy(() => import("./Home"));
+const Home = lazy(() => import("./Home"));
 
 const App = () => {
   return (
