@@ -1,5 +1,8 @@
 import React, { Fragment } from "react";
-import { LinearProgress, Box } from "@material-ui/core";
+import { LinearProgress, Box,Button,
+  ButtonGroup, } from "@material-ui/core";
+
+import { Save, Delete } from '@material-ui/icons';
 
 export default function FullpageLoader() {
   return (
@@ -21,6 +24,24 @@ export default function FullpageLoader() {
         <LinearProgress color="secondary" />
       </Box>
       <Box height={300}></Box>
+      <ButtonGroup>
+        <Button
+          variant='contained'
+          color='primary'
+          size='large'
+          startIcon={<Save />}
+        >
+          Save
+        </Button>
+        <Button
+          variant='contained'
+          color='secondary'
+          size='large'
+          startIcon={<Delete />}
+        >
+          Discard
+        </Button>
+      </ButtonGroup>
     </Fragment>
   );
 }
